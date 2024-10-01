@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazzee Job Portal - Welcome</title>
+    <link rel="stylesheet" href="new1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Jazzee Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-newspaper"></i> Articles</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> People</a></li>
+                <li><a href="#"><i class="fas fa-briefcase"></i> Jobs</a></li>
+                <li><a href="#"><i class="fas fa-graduation-cap"></i> Learning</a></li>
+                <li><a href="#"><i class="fas fa-mobile-alt"></i> Get the app</a></li>
+                <li><a href="#" id="signup-btn" class="join-now"><i class="fas fa-user-plus"></i> Join Now</a></li>
+                <li><a href="#" id="signin-btn" class="sign-in-btn"><i class="fas fa-sign-in-alt"></i> Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Login/Signup Form Section -->
+        <section id="form-section">
+            <div id="login-form" class="form-container">
+                <h1><i class="fas fa-sign-in-alt"></i> Welcome Back</h1>
+                <button class="google-signin-btn"><i class="fab fa-google"></i> Continue with Google</button>
+                <button class="email-signin-btn"><i class="fas fa-envelope"></i> Sign in with Email</button>
+                <p>By signing in, you agree to Jazzee's <a href="#">User Agreement</a>, <a href="#">Privacy Policy</a>,
+                    and <a href="#">Cookie Policy</a>.</p>
+                <p>New to Jazzee? <a href="#" id="switch-to-signup">Join now</a></p>
+            </div>
+            <div id="signup-form" class="form-container hidden">
+                <h1><i class="fas fa-user-plus"></i> Join Us</h1>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button class="signup-btn"><i class="fas fa-user-plus"></i> Sign Up</button>
+                <p>Already a member? <a href="#" id="switch-to-signin">Sign In</a></p>
+            </div>
+
+            <div class="welcome-image">
+                <img src="banner.png" alt="Professional Community">
+            </div>
+        </section>
+
+
+        <!-- Roles Offered Section -->
+        <section id="roles-offered">
+            <h2>Roles Offered for Students</h2>
+            <div class="roles-container">
+                <div class="role-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <p>Software Developer</p>
+                </div>
+                <div class="role-item">
+                    <i class="fas fa-chart-line"></i>
+                    <p>Data Analyst</p>
+                </div>
+                <div class="role-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <p>Graphic Designer</p>
+                </div>
+                <div class="role-item">
+                    <i class="fas fa-business-time"></i>
+                    <p>Business Analyst</p>
+                </div>
+                <div class="role-item">
+                    <i class="fas fa-user-secret"></i>
+                    <p>Cybersecurity Specialist</p>
+                </div>
+                <div class="role-item">
+                    <i class="fas fa-bullhorn"></i>
+                    <p>Marketing Intern</p>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <!-- Trusted Companies Section -->
+        <section id="trusted-companies">
+            <h2>Trusted by Companies</h2>
+            <div class="company-logos">
+                <img src="amazon.png" alt="Company 1" class="company-logo">
+                <img src="adobe.png" alt="Company 2" class="company-logo">
+                <img src="microsoft.png" alt="Company 3" class="company-logo">
+                <img src="png-transparent-flipkart-logo.png" alt="Company 4" class="company-logo">
+                <img src="wipro.png" alt="Company 3" class="company-logo">
+                <img src="accenture.png" alt="Company 3" class="company-logo">
+                <img src="de.png" alt="Company 3" class="company-logo">
+            </div>
+        </section>
+
+        <!-- Subscription Model Section -->
+        <section id="subscription-section">
+            <h2>Choose Your Subscription Plan</h2>
+            <div class="subscription-cards">
+                <div class="subscription-card basic">
+                    <h3>Basic</h3>
+                    <p>Free</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Access to job postings</li>
+                        <li><i class="fas fa-check"></i> Basic profile setup</li>
+                        <li><i class="fas fa-times"></i> Premium support</li>
+                        <li><i class="fas fa-times"></i> Featured profile</li>
+                    </ul>
+                    <button>Select</button>
+                </div>
+                <div class="subscription-card premium">
+                    <h3>Premium</h3>
+                    <p>$9.99/month</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Access to all job postings</li>
+                        <li><i class="fas fa-check"></i> Advanced profile setup</li>
+                        <li><i class="fas fa-check"></i> Premium support</li>
+                        <li><i class="fas fa-times"></i> Featured profile</li>
+                    </ul>
+                    <button>Select</button>
+                </div>
+                <div class="subscription-card pro">
+                    <h3>Pro</h3>
+                    <p>$19.99/month</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Access to all job postings</li>
+                        <li><i class="fas fa-check"></i> Advanced profile setup</li>
+                        <li><i class="fas fa-check"></i> Premium support</li>
+                        <li><i class="fas fa-check"></i> Featured profile</li>
+                    </ul>
+                    <button>Select</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Reviews Section -->
+        <section id="reviews-section">
+            <h2>User Reviews & Opinions</h2>
+
+            <!-- Review Cards -->
+            <div class="review-card">
+                <p class="review-text">"This platform really helped me connect with job opportunities. I love how easy
+                    it is to use!"</p>
+                <div class="review-author">
+                    <strong>John Smith</strong>
+                    <span class="rating-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <p class="review-text">"A website really helped me a lot to find better opportunities"</p>
+                <div class="review-author">
+                    <strong>Jane Kelvin</strong>
+                    <span class="rating-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <p class="review-text">"Good but could use more features. The user interface is sleek though!"</p>
+                <div class="review-author">
+                    <strong>Michael Hussey</strong>
+                    <span class="rating-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2024 Jazzee Job Portal. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
